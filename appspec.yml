@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /target/*.war
+  - source: /target/maven-1.0.0.war
     destination: /opt/tomcat/webapps/
 hooks:
   Before Install:
